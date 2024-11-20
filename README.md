@@ -72,4 +72,4 @@ python main.py
   The API will run on http://127.0.0.1:5000/.
 Accessing the API
 Use any API testing tool like Postman or cURL:
-  curl -X POST http://127.0.0.1:5000/recommend -H "Content-Type: application/json" -d '{"User
+curl -X POST http://127.0.0.1:5000/recommend -H "Content-Type: application/json" -d '{"UserID": "U1"}'
